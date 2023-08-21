@@ -1,0 +1,807 @@
+        body {
+            width: 100%;
+        }
+        
+        .topnav {
+            width: 100%;
+        }
+        
+        .topnav a {
+            color: rgb(36, 36, 36);
+            text-align: start;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 20px;
+            border-bottom: 3px solid transparent;
+        }
+        
+        .topnav a:hover {
+            border-bottom: 8px solid rgb(11, 65, 242);
+        }
+        /* 
+       .topnav a.active {
+       border-bottom: 3px solid red;
+       } */
+        
+        .navbar-nav .nav-item .nav-link {
+            font-weight: bold;
+            padding-left: 35px;
+        }
+        
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            color: grey;
+        }
+        
+        .top-left {
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            width: 45%;
+            color: blueviolet;
+        }
+        
+        #text4 {
+            padding: 10px;
+            width: 20%;
+            background-color: blueviolet;
+            border-radius: 40px;
+        }
+        
+        #text4 a {
+            text-decoration-line: none;
+            color: white;
+        }
+        
+        .cccc1 {
+            width: 100%;
+            height: 250px;
+            border-radius: 20rem 0 0 20rem;
+            background: lightblue;
+        }
+        
+        .cccc3 {
+            width: 100%;
+            height: 250px;
+            border-radius: 20rem 0 0 20rem;
+            background-color: antiquewhite;
+        }
+        
+        .cccc .fa {
+            color: blueviolet;
+        }
+        
+        .cccc .card-title {
+            color: rgb(3, 3, 53);
+        }
+        
+        #card1 {
+            border: 1px solid rgb(79, 78, 78);
+        }
+        
+        #card1:hover {
+            box-shadow: 0px 5px 8px 0px;
+            border: none;
+        }
+        
+        #card2 {
+            border: 1px solid rgb(75, 74, 74);
+        }
+        
+        #card2:hover {
+            box-shadow: 0px 5px 8px 0px;
+            border: none;
+        }
+        /* video */
+        
+        .aa p {
+            color: rgb(98, 96, 96);
+            font-size: 15px;
+            padding-top: 5px;
+        }
+        /* karte ja */
+        
+        .karte2 .btn {
+            border: 2px solid blueviolet;
+            border-radius: 20px;
+            text-align: center;
+        }
+        
+        .karte2 .btn a {
+            text-decoration-line: none;
+            color: blueviolet;
+        }
+        
+        .karte4 {
+            width: 100%;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .karte4 .carousel {
+            position: relative;
+            width: 23rem;
+            height: 23rem;
+            perspective: 500px;
+            transform-style: preserve-3d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .karte4 .card-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transform: rotateY(calc(var(--offset) * 50deg)) scaleY(calc(1 + var(--abs-offset) * -0.4)) translateZ(calc(var(--abs-offset) * -30rem)) translateX(calc(var(--direction) * -5rem));
+            filter: blur(calc(var(--abs-offset) * 1rem));
+            transition: all 0.3s ease-out;
+            opacity: var(--opacity);
+        }
+        
+        .karte4 .card {
+            width: 100%;
+            height: 100%;
+            padding: 2rem;
+            background-color: hsl(280deg, 40%, calc(100% - var(--abs-offset) * 50%));
+            border-radius: 1rem;
+            color: #9CA3AF;
+            text-align: justify;
+            transition: all 0.3s ease-out;
+        }
+        
+        .karte4 .nav {
+            color: rgb(234, 233, 233);
+            font-size: 3rem;
+            position: absolute;
+            top: calc(50% - 1.5rem);
+            z-index: 2;
+            cursor: pointer;
+            user-select: none;
+            background: none;
+            border: none;
+        }
+        
+        .karte4 .nav i {
+            vertical-align: middle;
+        }
+        
+        .karte4 .nav.left {
+            left: 1rem;
+        }
+        
+        .karte4 .nav.right {
+            right: 1rem;
+        }
+        /* money */
+        
+        .money {
+            background-image: linear-gradient(to right, rgb(117, 62, 205), rgb(183, 137, 225));
+            background-size: cover;
+            width: 100%;
+            height: 60vh;
+            border-radius: 20px;
+        }
+        
+        .money1 {
+            margin-top: 30%;
+        }
+        
+        .money2 h1 {
+            padding: 20px;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .money2 p {
+            color: white;
+        }
+        /* att */
+        
+        .att {
+            background-color: rgba(234, 218, 250, 0.77);
+            background-size: cover;
+            width: 100%;
+            height: 120vh;
+        }
+        
+        .at h1 {
+            color: rgb(3, 3, 53);
+            font-weight: bold;
+            /* padding-top: 10px; */
+            margin-bottom: 40px;
+        }
+        
+        .at .btn {
+            background-color: rgb(52, 166, 166);
+            text-align: center;
+            border-radius: 40px;
+            padding: 18px;
+            width: 20%;
+        }
+        
+        .at .btn a {
+            text-decoration-line: none;
+            color: white;
+        }
+        
+        @keyframes slide-in {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0%);
+            }
+        }
+        
+        .at1 {
+            animation: slide-in 1000ms;
+            animation-timing-function: linear;
+        }
+        /* busniess */
+        
+        .bus {
+            background-image: url(./img/bg1.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+        }
+        
+        @keyframes slide-in {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0%);
+            }
+        }
+        
+        .bus1 {
+            animation: slide-in 1000ms;
+            animation-timing-function: linear;
+        }
+        
+        .bus1 img {
+            margin-top: 100px;
+        }
+        
+        .bus2 h1 {
+            color: rgb(3, 3, 53);
+            font-weight: bold;
+        }
+        
+        .bus4 h6 {
+            color: rgb(61, 69, 182);
+            padding: 5px;
+        }
+        
+        .bus4 p {
+            padding: 5px;
+        }
+        
+        .bus4 i:hover {
+            color: blue;
+            transform: scale(1.5);
+        }
+        /* trust */
+        
+        .trust {
+            background: url(./img/images\ \(1\).jpeg);
+            background-size: cover;
+            width: 100%;
+            height: 90vh;
+        }
+        
+        .trust1 p {
+            color: rgb(233, 215, 249);
+        }
+        
+        .trust1 h1 {
+            color: white;
+            font-weight: bold;
+        }
+        
+        #trust2 {
+            font-size: 20px;
+            color: rgb(233, 215, 249);
+            font-weight: bold;
+        }
+        
+        #trust3 {
+            border-radius: 10px;
+            border: 2px solid aqua;
+        }
+        
+        #trust3 a {
+            text-decoration-line: none;
+            color: white;
+        }
+        /* footer */
+        
+        .foot ul h5 a {
+            text-decoration-line: none;
+            list-style-type: none;
+            color: #000;
+            text-align: center;
+        }
+        
+        .foot ul li {
+            text-decoration-line: none;
+            list-style-type: none;
+            color: rgb(49, 49, 49);
+            padding: 8px;
+        }
+        
+        .foot ul li a {
+            text-decoration-line: none;
+            list-style-type: none;
+            color: rgb(49, 49, 49);
+            font-size: 15px;
+        }
+        
+        .foot .btn {
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        
+        .foot .btn a {
+            text-decoration-line: none;
+            list-style-type: none;
+            color: rgb(49, 49, 49);
+        }
+        
+        .nb-copyright {
+            background: #171717;
+            padding-bottom: 10px;
+        }
+        
+        .nb-copyright .copyrt {
+            margin-top: 22px;
+            font-size: 14px;
+        }
+        
+        .nb-copyright .copyrt a {
+            color: #f6f8f9;
+        }
+        
+        .nb-copyright .footer-social {
+            display: inline-flex;
+            margin-top: 10px;
+        }
+        
+        .footer-social ul li a i {
+            text-decoration-line: none;
+        }
+        
+        .nb-copyright .footer-social i {
+            display: inline-flex;
+            padding: 5px 10px;
+            color: rgb(14, 14, 14);
+            border: 1px solid #333;
+            margin-top: 10px;
+            font-size: 20px;
+            border-radius: 5px;
+            transition: all 0.4s ease-in-out;
+        }
+        
+        .nb-copyright .footer-social i:hover {
+            background: #0f0f10;
+            color: #fff;
+        }
+        
+        .nb-copyright .footer-social .fa-facebook {
+            padding: 5px 14px;
+        }
+        
+        @media(max-width: 767px) {
+            .xs-center {
+                text-align: center;
+            }
+            .left-clear {
+                padding-left: 0;
+            }
+            .right-clear {
+                padding-right: 0;
+            }
+        }
+        
+        @media screen and (max-width:1200px) {
+            .owl-carousel {
+                width: 100%;
+                margin-top: 30px;
+            }
+            .item img {
+                height: auto;
+            }
+            .top-left {
+                position: absolute;
+                top: 10%;
+                left: 10%;
+                width: 40%;
+                color: blueviolet;
+            }
+            .text1 {
+                font-size: 20px;
+            }
+            .text2 {
+                font-size: 30px;
+            }
+            #text4 {
+                width: 30%;
+            }
+            .money {
+                height: 60vh;
+                text-align: center;
+            }
+            .att {
+                height: 100vh;
+            }
+            .bus {
+                background-image: url(./img/bg1.jpg);
+                background-size: cover;
+                width: 100%;
+                height: 80vh;
+            }
+            .trust {
+                height: 60vh;
+                margin-top: -40px;
+            }
+            .foot ul h5 {
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .foot ul li a {
+                font-size: 15px;
+                text-align: center;
+            }
+            .foot img {
+                text-align: center;
+            }
+        }
+        
+        @media screen and (max-width:992px) {
+            .top-left {
+                position: absolute;
+                top: 10%;
+                left: 10%;
+                width: 40%;
+                color: blueviolet;
+            }
+            .text1 {
+                font-size: 20px;
+            }
+            .text2 {
+                font-size: 30px;
+            }
+            #text4 {
+                width: 40%;
+            }
+            .item img {
+                height: auto;
+            }
+            .money {
+                height: 70vh;
+                text-align: center;
+            }
+            .att {
+                height: 100vh;
+            }
+            .bus {
+                background-image: url(./img/bg1.jpg);
+                background-size: cover;
+                width: 100%;
+                height: 80vh;
+            }
+            .trust {
+                height: 80vh;
+                margin-top: -40px;
+            }
+            .foot ul h5 {
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .foot ul li a {
+                font-size: 15px;
+                text-align: center;
+            }
+            .foot img {
+                text-align: center;
+            }
+            #phone {
+                width: 100px;
+                height: 80px;
+            }
+        }
+        
+        @media screen and (max-width:768px) {
+            .top-left {
+                position: absolute;
+                top: 20%;
+                left: 10%;
+                width: 45%;
+                color: blueviolet;
+            }
+            .text1 {
+                font-size: 20px;
+            }
+            .text2 {
+                font-size: 23px;
+            }
+            #text4 {
+                width: 55%;
+            }
+            .item img {
+                height: 68vh;
+            }
+            .aa1 {
+                margin-left: -100px;
+            }
+            .money {
+                height: 100vh;
+                text-align: center;
+            }
+            .att {
+                height: 150vh;
+            }
+            .bus {
+                background-image: url(./img/bg1.jpg);
+                background-size: cover;
+                width: 100%;
+                height: 200vh;
+            }
+            .bus1 {
+                width: 100px;
+                height: 100px;
+                margin-left: -130px;
+            }
+            .bus h6 {
+                font-size: 15px;
+                padding: -10px;
+            }
+            .trust {
+                height: 100vh;
+                margin-top: -40px;
+            }
+            .foot ul h5 {
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .foot ul li a {
+                font-size: 15px;
+                text-align: center;
+            }
+            .foot img {
+                text-align: center;
+            }
+        }
+        
+        @media screen and (max-width:576px) {
+            .top-left {
+                position: absolute;
+                top: 20%;
+                left: 10%;
+                width: 45%;
+                color: blueviolet;
+            }
+            .text1 {
+                font-size: 15px;
+            }
+            .text2 {
+                font-size: 18px;
+            }
+            .text3 {
+                font-size: 12px;
+            }
+            #text4 {
+                width: 100%;
+            }
+            .owl-carousel {
+                width: 90%;
+            }
+            .item img {
+                height: 70vh;
+            }
+            .cccc .card {
+                height: auto;
+                padding: 10px;
+                margin: 10px;
+                width: 90%;
+            }
+            .aa1 {
+                margin-left: -100px;
+            }
+            .aa {
+                padding: -20px;
+                width: 90%;
+            }
+            .karte img {
+                width: 200px;
+                height: 200px;
+            }
+            .karte1 img {
+                width: 200px;
+                height: 200px;
+                margin-top: -40px;
+            }
+            .karte4 {
+                width: 90vw;
+                height: 70vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                font-family: 'Montserrat', sans-serif;
+            }
+            .karte3 {
+                padding: 20px;
+            }
+            .money1 {
+                margin-top: -5px;
+                padding: 10px;
+            }
+            .money2 p {
+                font-size: 15px;
+            }
+            .money {
+                height: auto;
+                text-align: center;
+            }
+            .money2 img {
+                padding: 10px;
+                text-align: center;
+            }
+            .at .btn {
+                width: 50%;
+            }
+            .att {
+                height: auto;
+                width: 96%;
+            }
+            .bus {
+                background-image: url(./img/bg1.jpg);
+                background-size: cover;
+                width: 100%;
+                margin-left: -20px;
+                height: 140vh;
+            }
+            .bus1 {
+                width: 100px;
+                height: 100px;
+                margin-right: -130px;
+            }
+            .bus2 {
+                width: 50%;
+                padding: -20px;
+                margin-right: -65px;
+            }
+            .bus2 hr {
+                width: 20%;
+            }
+            .trust {
+                height: 200vh;
+                width: 100%;
+                margin-right: -20px;
+            }
+            .foot img {
+                width: 180px;
+                margin-top: -30px;
+                text-align: center;
+            }
+            .footer ul,
+            h5 {
+                text-align: center;
+            }
+            .footer ul,
+            li,
+            a {
+                text-align: center;
+            }
+            .footer .foot img {
+                justify-content: center;
+            }
+        }
+        
+        @media screen and (max-width:360px) {
+            .top-left {
+                position: absolute;
+                top: 10%;
+                left: 10%;
+                width: 50%;
+                color: blueviolet;
+            }
+            .topnav {
+                width: 100%;
+            }
+            .text1 {
+                font-size: 15px;
+            }
+            .text2 {
+                font-size: 20px;
+            }
+            .text3 {
+                font-size: 18px;
+            }
+            .item img {
+                height: 60vh;
+                font-size: 12px;
+            }
+            #text4 {
+                padding: -10px;
+            }
+            .cccc .card {
+                height: auto;
+                padding: 10px;
+                margin: 10px;
+            }
+            .aa1 {
+                display: none;
+                margin-right: -30%;
+                width: 100px;
+            }
+            .karte img {
+                width: 200px;
+                height: 200px;
+            }
+            .karte1 img {
+                width: 200px;
+                height: 200px;
+            }
+            .money2 p {
+                font-size: 15px;
+            }
+            .money2 {
+                margin-top: -40px;
+            }
+            .money2 img {
+                padding: 10px;
+                text-align: center;
+            }
+            .money {
+                margin-top: -80px;
+            }
+            .at .btn {
+                width: 50%;
+            }
+            .att {
+                height: 120vh;
+            }
+            .bus {
+                background-image: url(./img/bg1.jpg);
+                background-size: cover;
+                width: 100%;
+                height: 180vh;
+            }
+            .bus1 {
+                width: 100px;
+                height: 100px;
+                margin-left: -130px;
+            }
+            .trust {
+                height: 185vh;
+            }
+            .foot img {
+                width: 180px;
+                margin-top: -30px;
+                text-align: center;
+            }
+            .footer ul,
+            h5 {
+                text-align: center;
+            }
+            .footer ul,
+            li,
+            a {
+                text-align: center;
+            }
+            .footer .foot img {
+                justify-content: center;
+            }
+        }

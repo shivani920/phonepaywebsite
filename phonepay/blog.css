@@ -1,0 +1,62 @@
+.d-flex i {
+    padding: 10px;
+    color: grey;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+    padding-left: 35px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+}
+
+.army p {
+    font-size: 12px;
+}
+
+.army a {
+    text-decoration-line: none;
+    padding: 10px;
+}
+
+.army h6,
+p {
+    padding: 10px;
+}
+
+.india1 p {
+    font-size: 12px;
+}
+
+.india2 h1 {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.india2 a {
+    text-decoration-line: none;
+    font-size: 12px;
+}
+
+.india3 i {
+    font-size: 40px;
+    padding-top: 10px;
+    color: rgba(137, 43, 226, 0.504);
+}
+
+.up1 h5 {
+    padding: 10px;
+}
+
+.foo ul {
+    display: inline-flex;
+}
+
+.foo ul li {
+    padding: 10px;
+    list-style-type: none;
+    color: grey;
+}
